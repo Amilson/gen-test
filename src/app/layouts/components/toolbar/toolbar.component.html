@@ -1,0 +1,14 @@
+<img src="assets/img/logo.svg" [routerLink]="['']" />
+<div class="action">
+  <gen-c-button type="secondary" color="success" [routerLink]="['/components']" size="sm">
+    Componentes
+  </gen-c-button>
+</div>
+<div class="cart" [routerLink]="['/shopping']">
+  <ng-container *ngIf="__data$ | async as data">
+    <span class="qtd">
+      {{ data }}
+    </span>
+  </ng-container>
+  <img src="assets/img/cart.svg" />
+</div>

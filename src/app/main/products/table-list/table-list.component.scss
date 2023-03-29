@@ -1,0 +1,20 @@
+@import 'dist/gen-style/assets/scss/partials/variables';
+@import 'dist/gen-style/assets/scss/partials/breakpoints';
+
+:host {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 12px;
+  margin-top: -180px;
+  padding: 0px 42px;
+
+  @include media-breakpoint('lt-md') {
+    padding: 12px;
+    grid-template-columns: auto auto !important;
+  }
+
+  @include media-breakpoint('xs') {
+    padding: 12px;
+    grid-template-columns: auto !important;
+  }
+}

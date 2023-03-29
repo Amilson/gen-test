@@ -1,0 +1,9 @@
+@import 'dist/gen-style/assets/scss/partials/variables';
+
+:host {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background-color: map-get($gen-primary, 100);
+}

@@ -1,0 +1,23 @@
+<div class="group-info" [routerLink]="['/product/details/' + model.id]">
+  <img [src]="'/assets/img/products/' + model.id + '/1.png'" />
+  <div class="box">
+    <span class="title">{{ model.name }}</span>
+    <span class="description">Size: {{ model.size }}</span>
+    <span class="description">Price: {{ model.price | genCurrency }}</span>
+  </div>
+</div>
+<div class="group-qtd">
+  <span class="title">{{ model.qtd }}</span>
+  <div class="action">
+    <gen-c-button type="primary" color="error" size="sm" (click)="onHandleAction('sub')">
+      -
+    </gen-c-button>
+    <gen-c-button type="primary" color="success" size="sm" (click)="onHandleAction('add')">
+      +
+    </gen-c-button>
+  </div>
+</div>
+<div class="group-value">
+  <span class="title">Total</span>
+  <span class="description">{{ model.total | genCurrency }}</span>
+</div>

@@ -1,0 +1,93 @@
+@import 'dist/gen-style/assets/scss/partials/variables';
+@import 'dist/gen-style/assets/scss/partials/breakpoints';
+
+:host {
+  display: flex;
+  align-items: flex-start;
+  background-color: #fff;
+  padding: 8px;
+  height: 200px;
+  background-image: linear-gradient(
+    180deg,
+    map-get($gen-primary, 200),
+    map-get($gen-primary, main)
+  );
+  box-shadow: 0px 4px 48px rgba(0, 0, 0, 0.25);
+  border-radius: 48px;
+  padding: 48px;
+
+  @include media-breakpoint('lt-md') {
+    padding: 24px !important;
+  }
+
+  .group {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .title {
+    align-items: center;
+    color: #34343b;
+    display: flex;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 32px;
+    text-align: center;
+  }
+
+  .breadcrumb {
+    width: 100%;
+    max-width: 152px;
+    align-items: center;
+    color: #4b4a53;
+    display: flex;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 16px;
+    text-align: justify;
+
+    @include media-breakpoint('lt-md') {
+      flex-direction: column;
+      max-width: 58px !important;
+      align-items: flex-start;
+    }
+
+    .back {
+      margin-right: 4px;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+
+  .next-product {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #4b4a53;
+    display: flex;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 16px;
+    text-align: justify;
+
+    @include media-breakpoint('lt-md') {
+      gap: 2px;
+      flex-direction: column;
+    }
+
+    .group {
+      display: flex;
+
+      @include media-breakpoint('lt-md') {
+        gap: 2px;
+        flex-direction: column;
+      }
+    }
+  }
+}

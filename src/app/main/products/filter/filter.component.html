@@ -1,0 +1,15 @@
+<div class="group">
+  <span class="breadcrumb"><span class="back">Home</span><span> / Products</span></span>
+
+  <span class="title">Shop</span>
+
+  <div class="order">
+    <gen-c-select (onChange)="onChangeOrder($event)" labelSelect="Order">
+      <gen-c-option
+        [label]="order.label"
+        [value]="order.value"
+        *ngFor="let order of _order"
+      ></gen-c-option>
+    </gen-c-select>
+  </div>
+</div>

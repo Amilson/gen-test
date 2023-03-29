@@ -1,0 +1,35 @@
+<div class="group-info">
+  <span class="title">{{ model?.name }}</span>
+  <span class="description">{{ model?.description?.title }}</span>
+  <div class="images">
+    <img
+      [src]="'/assets/img/products/' + model?.id + '/' + img + '.png'"
+      [class.selected]="img === _selected"
+      *ngFor="let img of ['1', '2', '3', '4']"
+      (click)="_selected = img"
+    />
+  </div>
+</div>
+
+<div class="group-img">
+  <img [src]="'/assets/img/products/' + model?.id + '/' + _selected + '.png'" />
+  <span class="title">{{ model?.price | genCurrency }}</span>
+</div>
+
+<div class="group-details">
+  <app-product-details-star [stars]="model?.ratting"></app-product-details-star>
+  <app-product-details-size
+    [sizes]="model?.sizes"
+    (selectedSize)="onSelectedSize($event)"
+  ></app-product-details-size>
+
+  <gen-c-button
+    type="primary"
+    color="success"
+    size="md"
+    [disabled]="!_selectedSize"
+    (click)="onHandleAddToCart()"
+  >
+    Add to cart
+  </gen-c-button>
+</div>

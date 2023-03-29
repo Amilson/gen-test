@@ -1,0 +1,49 @@
+@import 'dist/gen-style/assets/scss/partials/variables';
+
+:host {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  .body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    margin: auto;
+
+    .title {
+      color: map-get($gen-success, main);
+      display: flex;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: bold;
+      line-height: 28px;
+    }
+
+    .description {
+      align-items: center;
+      color: #52525c;
+      display: flex;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: bold;
+      line-height: 30px;
+      text-align: center;
+    }
+
+    .information {
+      align-items: center;
+      color: #52525c;
+      display: flex;
+      flex-direction: column;
+      font-size: 28px;
+      font-style: normal;
+      font-weight: normal;
+      line-height: 30px;
+      text-align: center;
+      max-width: 300px;
+    }
+  }
+}

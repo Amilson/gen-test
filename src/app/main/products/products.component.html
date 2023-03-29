@@ -1,0 +1,7 @@
+<ng-container *ngIf="__control$ | async as control">
+  <app-product-details-loading *ngIf="control.isLoading"></app-product-details-loading>
+</ng-container>
+<app-products-filter (order)="onHandleOrder($event)"></app-products-filter>
+<ng-container *ngIf="__data$ | async as data">
+  <app-products-table-list [model]="data"></app-products-table-list>
+</ng-container>

@@ -1,0 +1,13 @@
+<ng-container *ngIf="__control$ | async as control">
+  <app-product-details-loading *ngIf="control.isLoading"></app-product-details-loading>
+</ng-container>
+<ng-container *ngIf="__data$ | async as data">
+  <app-product-details-filter
+    [model]="data"
+    (changeProduct)="onChangeProduct($event)"
+  ></app-product-details-filter>
+  <app-product-details-data
+    [model]="data"
+    (addToCart)="onHandleAddToCart($event)"
+  ></app-product-details-data>
+</ng-container>

@@ -1,0 +1,20 @@
+<div class="group">
+  <div class="breadcrumb">
+    <span class="back" [routerLink]="'/'">Home</span>
+    <span> / Product Details</span>
+  </div>
+
+  <span class="title">Product Details</span>
+
+  <div class="next-product">
+    Next Product:
+    <div class="group">
+      <gen-c-button size="sm" [disabled]="!model._links.prev" (click)="changeProduct.next('prev')">
+        &larr;
+      </gen-c-button>
+      <gen-c-button size="sm" [disabled]="!model._links.next" (click)="changeProduct.next('next')">
+        &rarr;
+      </gen-c-button>
+    </div>
+  </div>
+</div>

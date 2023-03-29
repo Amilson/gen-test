@@ -1,0 +1,11 @@
+<ng-container *ngIf="__data$ | async as data">
+  <app-shopping-filter [model]="data"></app-shopping-filter>
+
+  <ng-container *ngIf="data.length; else noProduct">
+    <app-shopping-list [model]="data" (action)="onHandleAction($event)"></app-shopping-list>
+  </ng-container>
+
+  <ng-template #noProduct>
+    <app-shopping-no-products></app-shopping-no-products>
+  </ng-template>
+</ng-container>

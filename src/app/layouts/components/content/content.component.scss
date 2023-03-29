@@ -1,0 +1,16 @@
+@import 'dist/gen-style/assets/scss/partials/variables';
+@import 'dist/gen-style/assets/scss/partials/breakpoints';
+
+:host {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  background-color: map-get($gen-primary, 100);
+  padding-bottom: 100px;
+
+  @include media-breakpoint('gt-xs') {
+    padding: 24px;
+    height: 100%;
+    padding-bottom: 200px;
+  }
+}

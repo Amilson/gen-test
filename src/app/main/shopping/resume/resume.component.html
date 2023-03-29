@@ -1,0 +1,15 @@
+<ng-container *ngIf="__data$ | async as data">
+  <gen-c-button type="tertiary" color="primary" size="md" [routerLink]="['/']">
+    Add more products
+  </gen-c-button>
+
+  <div class="action">
+    <gen-c-button type="tertiary" color="error" size="md" (click)="onHandleAction('clear')">
+      Clear
+    </gen-c-button>
+
+    <gen-c-button type="primary" color="primary" size="md" (click)="onHandleAction('finish')">
+      Buy {{ data | genCurrency }}
+    </gen-c-button>
+  </div>
+</ng-container>

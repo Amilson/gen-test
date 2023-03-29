@@ -1,0 +1,332 @@
+[
+  {
+    "id": "1",
+    "name": "Tênis Ultraboost Light",
+    "description": {
+      "title": "Energia épica. Mais leve do que nunca",
+      "text": "Brilhe muito com a paleta de cores Ultraboost Light Red. Experimente a energia épica do novo Ultraboost Light, nosso Ultraboost mais leve de todos. A mágica está na entressola Light BOOST, uma nova geração do adidas BOOST. Seu design exclusivo de moléculas alcança a espuma BOOST mais leve até hoje e apresenta uma pegada de carbono 10% menor do que os modelos anteriores. Com amortecimento, conforto e responsividade de sobra, alguns pés realmente podem ter tudo."
+    },
+    "sizes": [
+      {
+        "value": 37,
+        "available": true
+      },
+      {
+        "value": 38,
+        "available": true
+      },
+      {
+        "value": 39,
+        "available": true
+      },
+      {
+        "value": 40,
+        "available": true
+      },
+      {
+        "value": 41,
+        "available": true
+      },
+      {
+        "value": 42,
+        "available": true
+      },
+      {
+        "value": 43,
+        "available": true
+      }
+    ],
+    "color": "Orange / Core Black",
+    "price": 1299.99,
+    "ratting": 5,
+    "_links": {
+      "next": "2"
+    }
+  },
+  {
+    "id": "2",
+    "name": "Tênis Ultraboost Light",
+    "description": {
+      "title": "Energia épica. Mais leve do que nunca",
+      "text": "Brilhe muito com a paleta de cores Ultraboost Light Red. Experimente a energia épica do novo Ultraboost Light, nosso Ultraboost mais leve de todos. A mágica está na entressola Light BOOST, uma nova geração do adidas BOOST. Seu design exclusivo de moléculas alcança a espuma BOOST mais leve até hoje e apresenta uma pegada de carbono 10% menor do que os modelos anteriores. Com amortecimento, conforto e responsividade de sobra, alguns pés realmente podem ter tudo."
+    },
+    "sizes": [
+      {
+        "value": 37,
+        "available": true
+      },
+      {
+        "value": 38,
+        "available": true
+      },
+      {
+        "value": 39,
+        "available": true
+      },
+      {
+        "value": 40,
+        "available": true
+      },
+      {
+        "value": 41,
+        "available": true
+      },
+      {
+        "value": 42,
+        "available": true
+      },
+      {
+        "value": 43,
+        "available": true
+      }
+    ],
+    "color": "White / Core Black",
+    "price": 1199.99,
+    "ratting": 4.5,
+    "_links": {
+      "prev": "1",
+      "next": "3"
+    }
+  },
+  {
+    "id": "3",
+    "name": "Tênis Ultraboost Light",
+    "description": {
+      "title": "Energia épica. Mais leve do que nunca",
+      "text": "Brilhe muito com a paleta de cores Ultraboost Light Red. Experimente a energia épica do novo Ultraboost Light, nosso Ultraboost mais leve de todos. A mágica está na entressola Light BOOST, uma nova geração do adidas BOOST. Seu design exclusivo de moléculas alcança a espuma BOOST mais leve até hoje e apresenta uma pegada de carbono 10% menor do que os modelos anteriores. Com amortecimento, conforto e responsividade de sobra, alguns pés realmente podem ter tudo."
+    },
+    "sizes": [
+      {
+        "value": 37,
+        "available": true
+      },
+      {
+        "value": 38,
+        "available": true
+      },
+      {
+        "value": 39,
+        "available": true
+      },
+      {
+        "value": 40,
+        "available": true
+      },
+      {
+        "value": 41,
+        "available": true
+      },
+      {
+        "value": 42,
+        "available": true
+      },
+      {
+        "value": 43,
+        "available": true
+      }
+    ],
+    "color": "Red / Core Black / White",
+    "price": 1099.99,
+    "ratting": 4.3,
+    "_links": {
+      "prev": "2",
+      "next": "4"
+    }
+  },
+  {
+    "id": "4",
+    "name": "Chuteira Copa Sens.3 Society",
+    "description": {
+      "title": "Energia épica. Mais leve do que nunca",
+      "text": "Brilhe muito com a paleta de cores."
+    },
+    "sizes": [
+      {
+        "value": 37,
+        "available": true
+      },
+      {
+        "value": 38,
+        "available": true
+      },
+      {
+        "value": 39,
+        "available": true
+      },
+      {
+        "value": 40,
+        "available": true
+      },
+      {
+        "value": 41,
+        "available": true
+      },
+      {
+        "value": 42,
+        "available": true
+      },
+      {
+        "value": 43,
+        "available": true
+      }
+    ],
+    "color": "Cloud White / Blue",
+    "price": 299.99,
+    "ratting": 4.1,
+    "_links": {
+      "prev": "3",
+      "next": "5"
+    }
+  },
+  {
+    "id": "5",
+    "name": "Boné Adicolor Classics",
+    "description": {
+      "title": "Mais leve do que nunca",
+      "text": "Brilhe muito com a paleta de cores."
+    },
+    "sizes": [
+      {
+        "value": 5,
+        "available": true
+      },
+      {
+        "value": 6,
+        "available": true
+      },
+      {
+        "value": 7,
+        "available": true
+      },
+      {
+        "value": 8,
+        "available": true
+      }
+    ],
+    "color": "Black",
+    "price": 129.99,
+    "ratting": 4,
+    "_links": {
+      "prev": "4",
+      "next": "6"
+    }
+  },
+  {
+    "id": "6",
+    "name": "Boné Sarja 3-Stripes",
+    "description": {
+      "title": "Mais leve do que nunca",
+      "text": "Brilhe muito com a paleta de cores."
+    },
+    "sizes": [
+      {
+        "value": 5,
+        "available": true
+      },
+      {
+        "value": 6,
+        "available": true
+      },
+      {
+        "value": 7,
+        "available": true
+      }
+    ],
+    "color": "White",
+    "price": 169.99,
+    "ratting": 4.5,
+    "_links": {
+      "prev": "5",
+      "next": "7"
+    }
+  },
+  {
+    "id": "7",
+    "name": "Chinelo Adissage",
+    "description": {
+      "title": "Mais leve do que nunca",
+      "text": "Brilhe muito com a paleta de cores."
+    },
+    "sizes": [
+      {
+        "value": 37,
+        "available": true
+      },
+      {
+        "value": 38,
+        "available": true
+      },
+      {
+        "value": 39,
+        "available": true
+      },
+      {
+        "value": 40,
+        "available": true
+      },
+      {
+        "value": 41,
+        "available": true
+      },
+      {
+        "value": 42,
+        "available": true
+      },
+      {
+        "value": 43,
+        "available": true
+      }
+    ],
+    "color": "Dark Blue / Cloud White",
+    "price": 169.99,
+    "ratting": 4.5,
+    "_links": {
+      "prev": "6",
+      "next": "8"
+    }
+  },
+  {
+    "id": "8",
+    "name": "Tênis NMD_R1",
+    "description": {
+      "title": "Design icônico",
+      "text": "Feito parcialmente com parley ocean plastic"
+    },
+    "sizes": [
+      {
+        "value": 37,
+        "available": true
+      },
+      {
+        "value": 38,
+        "available": true
+      },
+      {
+        "value": 39,
+        "available": true
+      },
+      {
+        "value": 40,
+        "available": true
+      },
+      {
+        "value": 41,
+        "available": true
+      },
+      {
+        "value": 42,
+        "available": true
+      },
+      {
+        "value": 43,
+        "available": true
+      }
+    ],
+    "color": "Dark Blue / Cloud White",
+    "price": 1899.99,
+    "ratting": 4.9,
+    "_links": {
+      "prev": "7"
+    }
+  }
+]

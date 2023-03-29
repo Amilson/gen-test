@@ -1,0 +1,7 @@
+<app-shopping-data
+  *ngFor="let item of model"
+  [model]="item"
+  (action)="action.next($event)"
+></app-shopping-data>
+
+<app-shopping-resume (action)="action.next($event)"></app-shopping-resume>

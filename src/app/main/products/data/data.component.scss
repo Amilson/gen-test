@@ -1,0 +1,67 @@
+@import 'dist/gen-style/assets/scss/partials/variables';
+@import 'dist/gen-style/assets/scss/partials/breakpoints';
+
+:host {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 48px;
+  padding: 24px 48px;
+  gap: 12px;
+  background: radial-gradient(circle, #d3d1ff 1%, #eaeaff 90%, #ffffff 100%);
+  border: 1px solid rgb(230, 230, 230);
+
+  &:hover {
+    cursor: pointer;
+    background-color: rgb(245, 245, 245);
+    box-shadow: 0px 4px 48px rgba(0, 0, 0, 0.25);
+    text-decoration: underline;
+  }
+
+  .color {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: 700;
+    color: #0f69ff;
+  }
+
+  .title {
+    align-items: center;
+    justify-content: center;
+    color: #34343b;
+    display: flex;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 16px;
+  }
+
+  .price {
+    align-items: center;
+    justify-content: center;
+    color: #4b4a53;
+    display: flex;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 16px;
+    text-align: center;
+  }
+
+  .ratting {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  img {
+    width: 100%;
+
+    @include media-breakpoint('lt-md') {
+      width: 130px !important;
+      height: 130px !important;
+    }
+  }
+}

@@ -1,0 +1,42 @@
+@import 'dist/gen-style/assets/scss/partials/variables';
+@import 'dist/gen-style/assets/scss/partials/breakpoints';
+
+:host {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 48px;
+  padding: 24px 48px;
+  gap: 12px;
+  background: radial-gradient(
+    circle,
+    rgb(252, 251, 255) 0%,
+    rgb(202, 200, 245) 0%,
+    rgb(231, 229, 253) 30%
+  );
+  margin: -180px 48px;
+
+  @include media-breakpoint('lt-md') {
+    margin: -120px 12px !important;
+    padding: 0px !important;
+  }
+
+  .group-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    gap: 48px;
+
+    .title {
+      color: map-get($gen-primary, main);
+      display: flex;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: bold;
+      line-height: 28px;
+      text-align: center;
+    }
+  }
+}

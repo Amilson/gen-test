@@ -1,0 +1,16 @@
+@import 'dist/gen-style/assets/scss/partials/variables';
+@import 'dist/gen-style/assets/scss/partials/breakpoints';
+
+:host {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 48px;
+  padding: 24px 48px;
+  gap: 48px;
+
+  .action {
+    display: flex;
+    justify-content: space-between;
+  }
+}

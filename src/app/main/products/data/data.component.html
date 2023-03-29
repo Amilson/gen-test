@@ -1,0 +1,7 @@
+<span class="title">{{ model.name }}</span>
+<span class="color">{{ model.color }}</span>
+<img [src]="'/assets/img/products/' + model.id + '/1.png'" />
+<div class="ratting">
+  <app-product-details-star [stars]="model.ratting"></app-product-details-star>
+  <span class="price">{{ model.price | genCurrency }}</span>
+</div>

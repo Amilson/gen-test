@@ -1,0 +1,11 @@
+<span class="title">Size:</span>
+<div class="boxes">
+  <div
+    class="box-size"
+    *ngFor="let size of sizes"
+    [class.selected]="_selectedSize === size.value"
+    (click)="onChooseSize(size.value)"
+  >
+    {{ size.value }}
+  </div>
+</div>
